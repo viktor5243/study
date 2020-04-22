@@ -1,7 +1,7 @@
 package main.java.head.first.java.chapter6;
 import java.util.*;
 
-import main.java.head.first.java.chapter5.GameHelper;
+import main.java.head.first.java.chapter6.GameHelper;
 
 public class DotComBust {
 	
@@ -10,7 +10,7 @@ public class DotComBust {
 	private int numOfGuesses;
 	
 	private void setUpGame() {
-		//DotComƒIƒuƒWƒFƒNƒg‚ğì¬‚µAˆÊ’u‚ğw’è
+		//DotComã‚ªãƒ–ã‚¸ã‚§ã‚¯ãƒˆã‚’ä½œæˆã—ã€ä½ç½®ã‚’æŒ‡å®š
 		DotCom one = new DotCom();
 		one.setName("Pets.com");
 		DotCom two = new DotCom();
@@ -28,8 +28,8 @@ public class DotComBust {
 		for(DotCom dotComToSet : dotComsList) {
 			ArrayList<String> newLocation = helper.placeDotCom(3);
 			dotComToSet.setLocationCells(newLocation);
-		}//ƒ‹[ƒvI—¹
-	}//setUpGameƒƒ\ƒbƒhI—¹
+		}//ãƒ«ãƒ¼ãƒ—çµ‚äº†
+	}//setUpGameãƒ¡ã‚½ãƒƒãƒ‰çµ‚äº†
 	
 	private void startPlaying() {
 		while(!dotComsList.isEmpty()) {
