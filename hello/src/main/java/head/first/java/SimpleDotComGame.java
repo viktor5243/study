@@ -1,6 +1,6 @@
 package head.first.java;
 
-class main {
+class SimpleDotComGame {
     public static void main(String[] args) {
 
         int numOfGusses = 0;
