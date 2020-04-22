@@ -7,7 +7,7 @@ public static void main(String[] args) {
 	
 	SimpleDotCom theDotCom = new SimpleDotCom();
 	int randomNum = (int)(Math.random()*5);
-	int locations[] = {randomNum, randomNum+1, randomNum+2};
+	int[] locations = {randomNum, randomNum+1, randomNum+2};
 	theDotCom.setLocationCells(locations);
 	boolean isAlive = true;
 	
@@ -19,6 +19,6 @@ public static void main(String[] args) {
 		if(result.equals("kill")) {
 			isAlive = false;
 			System.out.println("You took" + numOfGusses + "gusses");
-		}//if•¶‚ÌI—¹
-	}//while•¶‚ÌI—¹
-}//main‚ÌI—¹
+		}//ifæ–‡ã®çµ‚äº†
+	}//whileæ–‡ã®çµ‚äº†
+}//mainã®çµ‚äº†
