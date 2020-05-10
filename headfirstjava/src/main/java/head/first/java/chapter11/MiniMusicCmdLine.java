@@ -1,3 +1,7 @@
+//実行時にコマンドラインで数字を2つ指定して音を鳴らすプログラム（0～127）
+//現状、「Don't forget the instrument and note args」と表示されてプログラムが終わってしまう。
+//ユーザにコマンドラインからの入力を求めるメソッドが抜けている？？
+
 package main.java.head.first.java.chapter11;
 import javax.sound.midi.*;
 
